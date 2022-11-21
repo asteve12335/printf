@@ -22,6 +22,8 @@ typedef struct convert conver_t;
 int parser(const char *format, conver_t f_list[], va_list arg_list);
 int _printf(const char *format, ...);
 int _putchar(char c);
-
+int print_char(va_list);
+int print_string(va_list);
+int print_percent(va_list);
 
 #endif
