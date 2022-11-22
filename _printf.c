@@ -10,7 +10,7 @@
 int _printf(const char *format, ...)
 {
 	int printed_chars;
-	conver_t flist[] = {
+	conver_t f_list[] = {
 		{"c", print_char},
 		{"s", print_string},
 		{"%", print_percent},
